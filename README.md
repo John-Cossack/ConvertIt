@@ -49,7 +49,8 @@ Lossless conversion is preferred where the output format supports it. JPEG,
 MP3 and other lossy codecs have inherent limits. HEIC/HEIF are input only.
 [Supported routes](FORMATS.md); support depends on the specific file variant.
 Scanned documents require an existing text layer for text extraction; automatic OCR is not included.
-Ebooks require an installed Calibre, HWPX requires Java, and RAR creation requires WinRAR.
+Calibre is required for ebooks and PDF → DOC/DOCX/RTF exports. HWPX requires
+an installed Java runtime; RAR creation requires WinRAR.
 
 The package includes LibreOffice, Inkscape, FFmpeg and Pandoc for local document,
 vector and media conversions. Unused manuals, additional UI languages, developer
@@ -97,7 +98,8 @@ pwsh -NoProfile -ExecutionPolicy Bypass -File .\uninstall.ps1
 кодеки зі втратами мають власні обмеження. HEIC/HEIF — лише вхід.
 [Доступні напрямки](FORMATS.md); підтримка залежить від різновиду файла.
 Для витягування тексту зі сканів потрібен наявний текстовий шар; автоматичного OCR немає.
-Для книг потрібен установлений Calibre, для HWPX — Java, для створення RAR — WinRAR.
+Для книг і перетворення PDF → DOC/DOCX/RTF потрібен установлений Calibre.
+Для HWPX потрібна Java, для створення RAR — WinRAR.
 
 Пакет містить LibreOffice, Inkscape, FFmpeg і Pandoc для локальної роботи з
 документами, векторами та медіа. Зайві довідники, додаткові мови інтерфейсу,
@@ -108,12 +110,12 @@ pwsh -NoProfile -ExecutionPolicy Bypass -File .\uninstall.ps1
 ### Project information / Про проєкт
 
 - [Changelog / Історія змін](CHANGELOG.md)
-- [Contributing / Як долучитися](.github/CONTRIBUTING.md)
-- [Code of Conduct / Правила спільноти](.github/CODE_OF_CONDUCT.md)
-- [Security policy / Безпека](.github/SECURITY.md)
+- [Contributing / Як долучитися](https://github.com/John-Cossack/ConvertIt/blob/main/.github/CONTRIBUTING.md)
+- [Code of Conduct / Правила спільноти](https://github.com/John-Cossack/ConvertIt/blob/main/.github/CODE_OF_CONDUCT.md)
+- [Security policy / Безпека](https://github.com/John-Cossack/ConvertIt/blob/main/.github/SECURITY.md)
 - [Third-party notices / Ліцензійні відомості](licenses/THIRD_PARTY.md)
 
-The original ConvertIt code is licensed under [AGPL-3.0-only](LICENSE). Third-party
+Copyright © 2026 John-Cossack. The original ConvertIt code is licensed under [AGPL-3.0-only](LICENSE). Third-party
 components retain their own licenses. Contributions in English or Ukrainian are welcome.
 
 Вихідний код ConvertIt ліцензовано за [AGPL-3.0-only](LICENSE). Сторонні компоненти

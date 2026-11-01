@@ -50,7 +50,7 @@ Existing WinRAR Rar.exe is invoked separately for optional RAR creation and is n
 - lzip 1.26 and lzop 1.04 from MSYS2: https://packages.msys2.org/ ; GPL-2.0-or-later and component notices included from usr/share/licenses. Upstream sources: https://www.nongnu.org/lzip/ and https://www.lzop.org/ .
 - The Unarchiver command-line unar/lsar: https://theunarchiver.com/command-line ; LGPL, upstream source https://github.com/MacPaw/XADMaster . Portable binaries only; no external context menu is registered.
 - sfarkxtc-windows 3.0b: https://github.com/moltenform/sfarkxtc-windows ; GPL-3.0; readme accompanies the helper. Uses upstream checksum validation and rejects embedded licenses that require manual agreement.
-- H2Orestart 0.8.0: https://github.com/ebandal/H2Orestart ; extension is registered only in the bundled portable LibreOffice shared package cache. Uses existing Java; no new OS-level menu is installed.
+- H2Orestart 0.8.0: https://github.com/ebandal/H2Orestart ; GPL-3.0, license text included; extension is registered only in the bundled portable LibreOffice shared package cache. Uses existing Java; no new OS-level menu is installed.
 - rawpy 0.28.0, fonttools 4.68.0, Brotli 1.2.1, imagecodecs 2026.10.10 and pycdlib 1.22.0: respective wheel license metadata is collected in the application. Pure-Python acefile 0.6.14 is vendored from https://github.com/droe/acefile under BSD-2-Clause; no optional C extension is used.
 
 Retain dependency source references and component license files when redistributing
