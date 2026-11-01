@@ -1,5 +1,12 @@
 # Third-party notices for ConvertIt
 
+The original application source for this release is available at
+https://github.com/John-Cossack/ConvertIt/tree/v0.8.0.2 under AGPL-3.0-only.
+The component versions, upstream source projects and build references below
+identify the separate, unmodified native engines and Python dependencies.
+Component license texts are retained in the packaged runtime and `Licenses/`.
+
+
 - Pillow 13.0.0: https://python-pillow.github.io/ ; license included by PyInstaller in distribution metadata.
 - pillow-heif 1.8.1 / libheif / x265: https://github.com/bigcat88/pillow_heif ; bundled wheel metadata and native library licenses apply.
 - ReportLab 5.1.0: https://www.reportlab.com/ ; BSD license, used for lossless image embedding in PDF.
@@ -15,7 +22,8 @@ Downloaded archive: `ffmpeg-9.0.2-essentials_build.zip`, SHA-256 `60f467265b1e31
 
 This FFmpeg build is GPL v3 or later. The original LICENSE and README accompany the application in `Licenses/`; the exact source identified by the provider is https://github.com/FFmpeg/FFmpeg/commit/946fcce07b and build information/source instructions are on the provider's page. These binaries are invoked as separate local processes. No conversion uploads files to external services.
 
-This is a local test build, not a public software distribution.
+ConvertIt source code is licensed under AGPL-3.0-only. Third-party components
+retain their own licenses. Their notices and source references accompany the release.
 # Pandoc 3.13
 
 Portable official Windows binary from https://github.com/jgm/pandoc/releases/tag/3.13.
@@ -45,4 +53,6 @@ Existing WinRAR Rar.exe is invoked separately for optional RAR creation and is n
 - H2Orestart 0.8.0: https://github.com/ebandal/H2Orestart ; extension is registered only in the bundled portable LibreOffice shared package cache. Uses existing Java; no new OS-level menu is installed.
 - rawpy 0.28.0, fonttools 4.68.0, Brotli 1.2.1, imagecodecs 2026.10.10 and pycdlib 1.22.0: respective wheel license metadata is collected in the application. Pure-Python acefile 0.6.14 is vendored from https://github.com/droe/acefile under BSD-2-Clause; no optional C extension is used.
 
-This remains a private local test build. Dependency source links and component license files must be retained if preparing a public distribution.
+Retain dependency source references and component license files when redistributing
+the package. Native components are unmodified upstream binaries, staged and pruned
+by the build scripts; no source changes to those native engines are made here.

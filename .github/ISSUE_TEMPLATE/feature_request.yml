@@ -1,0 +1,18 @@
+name: Feature request / Пропозиція
+description: Describe a useful conversion route or workflow improvement.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should this solve? / Яку проблему вирішує?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior / Бажана поведінка
+      description: For a new format, specify both the input and output formats and any quality requirements.
+    validations:
+      required: true

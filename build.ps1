@@ -38,6 +38,7 @@ New-Item -ItemType Directory -Path dist\ConvertIt\Licenses -Force | Out-Null
 Copy-Item -LiteralPath "$ffmpegRoot\LICENSE" -Destination dist\ConvertIt\Licenses\FFmpeg-LICENSE.txt -Force
 Copy-Item -LiteralPath "$ffmpegRoot\README.txt" -Destination dist\ConvertIt\Licenses\FFmpeg-README.txt -Force
 Copy-Item -LiteralPath licenses\THIRD_PARTY.md -Destination dist\ConvertIt\Licenses\THIRD_PARTY.md -Force
+Copy-Item -LiteralPath LICENSE -Destination dist\ConvertIt\Licenses\ConvertIt-LICENSE.txt -Force
 python tools/prune_runtime.py dist/ConvertIt
 if ($LASTEXITCODE) { throw 'Runtime pruning failed' }
 & 'C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\makeappx.exe' pack /d dist\ConvertIt /p dist\ConvertIt.msix /o

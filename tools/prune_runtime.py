@@ -15,6 +15,8 @@ def reason(name):
     parts = path.parts
     if not parts or parts[0] != '_internal':
         return None
+    if '__pycache__' in parts:
+        return 'Interpreter caches'
     p = '/'.join(parts[1:])
     if p.startswith('imagemagick/') and path.suffix.lower() == '.exe' and path.name.lower() != 'magick.exe':
         return 'Duplicate ImageMagick commands'

@@ -18,6 +18,7 @@ class ReleasePayloadTests(unittest.TestCase):
             with self.subTest(name=name):self.assertIsNone(reason(name))
     def test_duplicate_programs_and_nonconversion_assets_are_removed(self):
         for name in ('_internal/imagemagick/identify.exe',
+                     '_internal/PIL/__pycache__/Image.cpython-314.pyc',
                      '_internal/libreoffice/program/resource/de/vcl.mo',
                      '_internal/libreoffice/share/extensions/dict-de/de_DE.dic',
                      '_internal/inkscape/share/inkscape/tutorials/lesson.svg',

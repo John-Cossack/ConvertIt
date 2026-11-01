@@ -1,5 +1,11 @@
 # ConvertIt
 
+[![Repository checks](https://github.com/John-Cossack/ConvertIt/actions/workflows/checks.yml/badge.svg)](https://github.com/John-Cossack/ConvertIt/actions/workflows/checks.yml)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
+[![Windows 11 x64](https://img.shields.io/badge/Windows_11-x64-0078D4)](https://github.com/John-Cossack/ConvertIt/releases)
+
+**[⬇️ Download Windows x64 preview / Завантажити для Windows x64](https://github.com/John-Cossack/ConvertIt/releases/tag/v0.8.0.2)**
+
 [🇬🇧 English](#english) · [🇺🇦 Українська](#ukrainian)
 
 <a id="english"></a>
@@ -12,7 +18,8 @@ English is the default; Ukrainian is used when the Windows display language is U
 
 ### Install
 
-Download and extract the Windows x64 release. Open **PowerShell 7 as administrator**
+Download the `ConvertIt-0.8.0.2-Windows-x64.zip` release asset and extract it.
+The GitHub-generated **Source code** archives are for developers, not installers. Open **PowerShell 7 as administrator**
 in the extracted folder and run:
 
 ```powershell
@@ -59,7 +66,8 @@ files and duplicate helper programs are excluded from the release.
 
 ### Встановлення
 
-Завантажте й розпакуйте реліз Windows x64. Відкрийте **PowerShell 7 від
+Завантажте й розпакуйте файл релізу `ConvertIt-0.8.0.2-Windows-x64.zip`.
+Автоматичні архіви GitHub **Source code** призначені для розробників, а не встановлення. Відкрийте **PowerShell 7 від
 адміністратора** в розпакованій папці та виконайте:
 
 ```powershell
@@ -97,7 +105,19 @@ pwsh -NoProfile -ExecutionPolicy Bypass -File .\uninstall.ps1
 
 ---
 
-[Third-party notices / Ліцензійні відомості](licenses/THIRD_PARTY.md)
+### Project information / Про проєкт
+
+- [Changelog / Історія змін](CHANGELOG.md)
+- [Contributing / Як долучитися](.github/CONTRIBUTING.md)
+- [Code of Conduct / Правила спільноти](.github/CODE_OF_CONDUCT.md)
+- [Security policy / Безпека](.github/SECURITY.md)
+- [Third-party notices / Ліцензійні відомості](licenses/THIRD_PARTY.md)
+
+The original ConvertIt code is licensed under [AGPL-3.0-only](LICENSE). Third-party
+components retain their own licenses. Contributions in English or Ukrainian are welcome.
+
+Вихідний код ConvertIt ліцензовано за [AGPL-3.0-only](LICENSE). Сторонні компоненти
+зберігають власні ліцензії. Звернення та внески приймаються англійською й українською.
 
 <details>
 <summary>Developer build instructions / Збирання для розробників</summary>

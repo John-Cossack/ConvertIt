@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation / Документація
+    url: https://github.com/John-Cossack/ConvertIt#readme
+    about: Installation, removal, supported routes and known limits.
+  - name: Private security report / Приватне повідомлення про вразливість
+    url: https://github.com/John-Cossack/ConvertIt/security/advisories/new
+    about: Report vulnerabilities privately; do not post sensitive samples in public issues.
